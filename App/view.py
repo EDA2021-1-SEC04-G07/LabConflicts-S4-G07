@@ -80,14 +80,16 @@ while True:
         # TO-DO: Modificación de Est-1 en el Lab 2
 
 
-        # TO-DO: Modificación de Est-2 en el Lab 2
+        print("Ultimo libro cargado:", lt.lastElement(books))
 
     elif int(inputs[0]) == 2:
         print("Cargando información de tags....")
         tags = loadTags()
         print('Total de tags cargados: ' + str(lt.size(tags)))
-    elif True:
-        # TO-DO: Modificación de Est-2 en el Lab 2
+    elif int(inputs[0]) == 3:
+        print("Cargando informacion de Book-Tags...")
+        booktags = loadBooksTags()
+        print("Total de Book-Tags cargados:", lt.size(booktags))
         pass
 
     else:
