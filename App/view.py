@@ -42,11 +42,7 @@ def printMenu():
     print("Opciones:")
     print("1- Cargar Libros")
     print("2- Cargar Tags")
-<<<<<<< HEAD
-    print("3- Cargar Book-Tags!!!")
-=======
     print("3- Cargar Book-Tags!")
->>>>>>> origin/est-1
     print("0- Salir")
 
 
